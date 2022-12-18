@@ -32,7 +32,7 @@ public class Strem_Object {
         List<Integer> A= new ArrayList<>();
         A.add(23);
         A.add(45);
-        
+
         Stream<Integer>B=A.stream();
         stream.forEach(e->{
             System.out.println(e);

@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4697a17c-5127-4326-9dff-c45268e0148e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lambda_Program.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Com/Program_lambda/Multi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Com/Program_lambda/Strem_Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Com/Program_lambda/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Com/Program_Method/Method1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Com/Program_Method/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Com/Work/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Com/Work/MyInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Com/Work/MyInterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Com/Program_lambda/Strem_Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Com/Program_lambda/Strem_Object.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +21,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../.jdks/corretto-11.0.17/lib/src.zip!/java.base/java/util/Scanner.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Com/Program_Method/Method1.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,23 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hp/Desktop/Apps/mysql-shell-8.0.31-linux-glibc2.12-x86-64bit&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Strem_Object">
-    <configuration name="Multi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.Program_lambda.Multi" />
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.Work.Main" />
       <module name="Lambda_Program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.Program_lambda.*" />
+          <option name="PATTERN" value="Com.Work.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strem_Object" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.Program_lambda.Strem_Object" />
+    <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.Program_Method.Method1" />
       <module name="Lambda_Program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.Program_lambda.*" />
+          <option name="PATTERN" value="Com.Program_Method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +80,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Com.Program_lambda.Test" />
+    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.Program_Method.Test1" />
       <module name="Lambda_Program" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Com.Program_lambda.*" />
+          <option name="PATTERN" value="Com.Program_Method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.Program_Method.Test1" />
+      <module name="Lambda_Program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.Program_Method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Com.Program_Method.Test1" />
+      <module name="Lambda_Program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.Program_Method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,9 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Strem_Object" />
-        <item itemvalue="Application.Multi" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test1 (2)" />
+        <item itemvalue="Application.Test1 (1)" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Method1" />
       </list>
     </recent_temporary>
   </component>
@@ -108,5 +139,9 @@
       <updated>1671260817711</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
